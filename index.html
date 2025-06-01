@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    
+    <body>
+        
+        <!-- Board -->
+        <div class="board">
+            
+            <!-- Board Title -->
+            <div class="title">
+                <h1>KHEL KOOD</h1>
+            </div>
+            
+            <!-- Main Container -->
+            <div class="container">
+                
+                <!-- Home Score -->
+                <div class="team">
+                    
+                    <h2>HOME</h2>
+                    
+                    <!-- Score -->
+                    <div class="score-box">
+                        <h3 id="score-home"></h3>
+                    </div>
+                        
+                    <!-- Score Buttons -->    
+                    <div class="buttons-score">
+                        <button class="button-home" onclick="homeAdd1()">
+                            +1
+                        </button>
+                        <button class="button-home" onclick="homeAdd2()">
+                            +2
+                        </button>
+                        <button class="button-home" onclick="homeAdd3()">
+                            +3
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Away Score -->
+                <div class="team">
+                    
+                    <h2>AWAY</h2>
+                    
+                    <!-- Score -->
+                    <div class="score-box">
+                        <h3 id="score-away"></h3>
+                    </div>
+                        
+                    <!-- Score Buttons -->    
+                    <div class="buttons-score">
+                        <button class="button-away" onclick="awayAdd1()">
+                            +1
+                        </button>
+                        <button class="button-away" onclick="awayAdd2()">
+                            +2
+                        </button>
+                        <button class="button-away" onclick="awayAdd3()">
+                            +3
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <!--Reset Button-->
+            <button class="button-reset" onclick="resetScore()">
+                RESET SCORE
+            </button>
+                
+        </div>
+        
+        <script src="index.js"></script>
+        
+    </body>
+</html>
