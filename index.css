@@ -14,6 +14,7 @@ body {
 .board {
     flex: 1;
     max-width: 480px;
+    height: fit-content;
 
     background-color: #FFFBEB;
     margin: 40px;
@@ -138,7 +139,7 @@ button {
     box-shadow: 2px 2px #F43F5E;
 }
 
-// Conditional Score Colors
+/* Conditional Score Colors */
 
 .yellow {
     color: #FBBF24;
